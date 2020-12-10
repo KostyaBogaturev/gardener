@@ -19,5 +19,10 @@
         /// Gets kingdom of organism.
         /// </summary>
         public Kingdoms Kingdom { get; }
+
+        /// <summary>
+        /// Gets prevalence of organism.
+        /// </summary>
+        public Prevalence Rarity { get; }
     }
 }
