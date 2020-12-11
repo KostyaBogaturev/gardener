@@ -24,5 +24,10 @@
         /// Gets prevalence of organism.
         /// </summary>
         public Prevalence Rarity { get; }
+
+        /// <summary>
+        /// Gets Way Getting Energy of organism.
+        /// </summary>
+        public GettingEnergy WayGettingEnergy { get; }
     }
 }
