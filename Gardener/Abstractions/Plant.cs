@@ -10,6 +10,7 @@
     /// </summary>
     public abstract class Plant : IOrganism
     {
+        private const string Info = "Plants are eukaryotic photosynthetic autotrophic organisms. Plants are producers organic matter and the main source of energy for other living organisms.";
         private readonly double averageSize;
         private readonly Prevalence rarity;
         private readonly PlantDevision devision;
@@ -54,7 +55,7 @@
         /// </summary>
         public virtual void GetInfo()
         {
-            Console.WriteLine("Plants are eukaryotic photosynthetic autotrophic organisms. Plants are producers organic matter and the main source of energy for other living organisms.");
+            Console.WriteLine(Info);
         }
     }
 }
