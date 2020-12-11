@@ -11,6 +11,7 @@
     public abstract class Gymnosperm : HighPlant
     {
         private const string Info = "Gymnosperms are a very ancient group of higher seed plants.";
+        private readonly Conifers member;
 
         /// <summary>
         /// Initializes a new instance of the <see cref="Gymnosperm"/> class.
@@ -18,9 +19,10 @@
         /// <param name="averageSize">initialize avarege size.</param>
         /// <param name="rarity">init rarity.</param>
         /// <param name="member">init member.</param>
-        public Gymnosperm(double averageSize, Prevalence rarity)
+        public Gymnosperm(double averageSize, Prevalence rarity, Conifers member)
             : base(averageSize, rarity, HighPlantsClasses.Gymnosperms)
         {
+            this.member = member;
         }
 
         /// <summary>
