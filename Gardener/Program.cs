@@ -1,6 +1,7 @@
 ﻿namespace Gardener
 {
     using System;
+    using Gardener.Services;
 
     /// <summary>
     /// Class with method Main.
@@ -13,7 +14,7 @@
         /// <param name="args">standart argument.</param>
         public static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Starter.Run();
         }
     }
 }
