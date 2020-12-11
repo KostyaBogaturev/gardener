@@ -51,11 +51,25 @@
         public GettingEnergy WayGettingEnergy => GettingEnergy.Photosynthesis;
 
         /// <summary>
+        /// Gets Name of Plant.
+        /// </summary>
+        public abstract string Name { get; }
+
+        /// <summary>
         /// Virtual method GetInfo() will output at console all information about plant.
         /// </summary>
         public virtual void GetInfo()
         {
             Console.WriteLine(Info);
+        }
+
+        /// <summary>
+        /// Override method ToString for plant.
+        /// </summary>
+        /// <returns>string with info.</returns>
+        public override string ToString()
+        {
+            return $"{this.Name} (devision {this.devision})average size = {this.AverageSize} prevalence = {this.Rarity}";
         }
     }
 }
