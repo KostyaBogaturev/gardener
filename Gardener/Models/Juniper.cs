@@ -21,6 +21,11 @@
         }
 
         /// <summary>
+        /// Gets name of this class.
+        /// </summary>
+        public override string Name => "Juniper";
+
+        /// <summary>
         /// Override method GetInfo , add new information about juniper.
         /// </summary>
         public override void GetInfo()
