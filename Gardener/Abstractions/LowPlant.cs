@@ -24,7 +24,7 @@
         }
 
         /// <summary>
-        /// Override method GetInfo , add new information about high devision plants.
+        /// Override method GetInfo , add new information about low devision plants.
         /// </summary>
         public override void GetInfo()
         {
