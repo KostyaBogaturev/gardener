@@ -1,8 +1,6 @@
 ﻿namespace Gardener.Abstractions
 {
     using System;
-    using System.Collections.Generic;
-    using System.Text;
     using Gardener.Enums;
 
     /// <summary>
@@ -26,7 +24,7 @@
         }
 
         /// <summary>
-        /// Override method GetInfo , add new information about low devision plants.
+        /// Override method GetInfo , add new information about Gymnosperms.
         /// </summary>
         public override void GetInfo()
         {
