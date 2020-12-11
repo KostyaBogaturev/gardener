@@ -48,5 +48,13 @@
         /// For this class WayGettingEnergy = Photosynthesis.
         /// </summary>
         public GettingEnergy WayGettingEnergy => GettingEnergy.Photosynthesis;
+
+        /// <summary>
+        /// Virtual method GetInfo() will output at console all information about plant.
+        /// </summary>
+        public virtual void GetInfo()
+        {
+            Console.WriteLine("Plants are eukaryotic photosynthetic autotrophic organisms. Plants are producers organic matter and the main source of energy for other living organisms.");
+        }
     }
 }
