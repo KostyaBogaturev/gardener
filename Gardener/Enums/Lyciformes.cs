@@ -8,16 +8,16 @@
         /// <summary>
         /// ClavateСrimson.
         /// </summary>
-        ClavateСrimson,
+        ClavateСrimsons,
 
         /// <summary>
         /// Selaginella.
         /// </summary>
-        Selaginella,
+        Selaginellaes,
 
         /// <summary>
         /// Polushnik.
         /// </summary>
-        Polushnik,
+        Polushniks,
     }
 }
