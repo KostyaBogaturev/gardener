@@ -8,16 +8,16 @@
         /// <summary>
         /// Spruce.
         /// </summary>
-        Spruce,
+        Spruces,
 
         /// <summary>
         /// Pine.
         /// </summary>
-        Pine,
+        Pines,
 
         /// <summary>
         /// Juniper.
         /// </summary>
-        Juniper,
+        Junipers,
     }
 }
