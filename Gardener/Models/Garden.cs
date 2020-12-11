@@ -42,6 +42,10 @@
             {
                 Console.WriteLine("Element not found");
             }
+            else
+            {
+                Console.WriteLine(plant);
+            }
         }
 
         /// <summary>
@@ -55,6 +59,10 @@
             if (plant == null)
             {
                 Console.WriteLine("Element not found");
+            }
+            else
+            {
+                Console.WriteLine(plant);
             }
         }
     }
