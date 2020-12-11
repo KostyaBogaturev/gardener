@@ -21,7 +21,7 @@
         }
 
         /// <summary>
-        /// Override method GetInfo , add new information about juniper.
+        /// Override method GetInfo , add new information about Polushnik.
         /// </summary>
         public override void GetInfo()
         {
